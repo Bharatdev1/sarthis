@@ -2,7 +2,7 @@ export const brands = [
   {
     id: 'oakley',
     name: 'Oakley',
-    logo: 'Oakley.jpg' // Corrected path
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/Oakley.jpg?raw=true'
   },
   {
     id: 'ray-ban',
@@ -12,13 +12,18 @@ export const brands = [
   {
     id: 'michael-kors',
     name: 'Michael Kors',
-    logo: 'mk.png' // Corrected path
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/mk.png?raw=true'
   },
   {
     id: 'prada',
     name: 'Prada',
-    logo: 'parada.png' // Corrected path
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/parada.png?raw=true'
   },
+  // {
+  //   id: 'giorgio-armani',
+  //   name: 'Giorgio Armani',
+  //   logo: './ga.jpg'
+  // },
   {
     id: 'fastrack',
     name: 'Fastrack',
@@ -27,16 +32,16 @@ export const brands = [
   {
     id: 'calvin-klein',
     name: 'Calvin Klein',
-    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/ck.JPG?raw=true' // Corrected path
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/ck.JPG?raw=true'
   },
   {
     id: 'varche',
     name: 'Varche',
-    logo: 'versace.jpg' // Corrected path
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/versace.JPG?raw=true'
   },
   {
     id: 'dolce-gabbana',
     name: 'Dolce & Gabbana',
-    logo: 'dg.jpg' // Corrected path
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/dg.jpg?raw=true'
   }
 ];
