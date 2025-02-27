@@ -27,7 +27,7 @@ export const brands = [
   {
     id: 'calvin-klein',
     name: 'Calvin Klein',
-    logo: 'ck.jpg' // Corrected path
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/27c51f27a50007120c4671f82adb31b24172c1ea/ck.JPG' // Corrected path
   },
   {
     id: 'varche',
