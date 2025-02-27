@@ -2,7 +2,7 @@ export const brands = [
   {
     id: 'oakley',
     name: 'Oakley',
-    logo: './Oakley.jpg'
+    logo: '/Oakley.jpg'
   },
   {
     id: 'ray-ban',
@@ -12,17 +12,17 @@ export const brands = [
   {
     id: 'michael-kors',
     name: 'Michael Kors',
-    logo: './mk.png'
+    logo: '/mk.png'
   },
   {
     id: 'prada',
     name: 'Prada',
-    logo: './parada.png'
+    logo: '/parada.png'
   },
   // {
   //   id: 'giorgio-armani',
   //   name: 'Giorgio Armani',
-  //   logo: './ga.jpg'
+  //   logo: '/ga.jpg'
   // },
   {
     id: 'fastrack',
@@ -32,16 +32,16 @@ export const brands = [
   {
     id: 'calvin-klein',
     name: 'Calvin Klein',
-    logo: './ck.jpg'
+    logo: '/ck.jpg'
   },
   {
     id: 'varche',
     name: 'Varche',
-    logo: './versace.jpg'
+    logo: '/versace.jpg'
   },
   {
     id: 'dolce-gabbana',
     name: 'Dolce & Gabbana',
-    logo: './dg.jpg'
+    logo: '/dg.jpg'
   }
 ];
