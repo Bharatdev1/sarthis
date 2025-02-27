@@ -2,7 +2,7 @@ export const brands = [
   {
     id: 'oakley',
     name: 'Oakley',
-    logo: '/Oakley.jpg'
+    logo: '/images/Oakley.jpg' // Corrected path
   },
   {
     id: 'ray-ban',
@@ -12,18 +12,13 @@ export const brands = [
   {
     id: 'michael-kors',
     name: 'Michael Kors',
-    logo: '/mk.png'
+    logo: '/images/mk.png' // Corrected path
   },
   {
     id: 'prada',
     name: 'Prada',
-    logo: '/parada.png'
+    logo: '/images/parada.png' // Corrected path
   },
-  // {
-  //   id: 'giorgio-armani',
-  //   name: 'Giorgio Armani',
-  //   logo: '/ga.jpg'
-  // },
   {
     id: 'fastrack',
     name: 'Fastrack',
@@ -32,16 +27,16 @@ export const brands = [
   {
     id: 'calvin-klein',
     name: 'Calvin Klein',
-    logo: '/ck.jpg'
+    logo: '/images/ck.jpg' // Corrected path
   },
   {
     id: 'varche',
     name: 'Varche',
-    logo: '/versace.jpg'
+    logo: '/images/versace.jpg' // Corrected path
   },
   {
     id: 'dolce-gabbana',
     name: 'Dolce & Gabbana',
-    logo: '/dg.jpg'
+    logo: '/images/dg.jpg' // Corrected path
   }
 ];
