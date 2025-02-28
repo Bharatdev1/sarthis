@@ -29,7 +29,7 @@ const Contact = () => {
               </div>
               <div className="d-flex align-items-center">
                 <Mail className="me-2" />
-                <p className="mb-0">contactsarthi@proton.me</p>
+                <p className="mb-0">sdselectronics@hotmail.com</p>
               </div>
             </div>
           </div>
