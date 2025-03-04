@@ -19,15 +19,15 @@ export const brands = [
     name: 'Prada',
     logo: 'https://github.com/Bharatdev1/sarthis/blob/main/parada.png?raw=true'
   },
-  // {
-  //   id: 'giorgio-armani',
-  //   name: 'Giorgio Armani',
-  //   logo: './ga.jpg'
-  // },
   {
-    id: 'fastrack',
-    name: 'Fastrack',
-    logo: 'https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwe800d23b/images/FASTRACK-Logo-Black.png'
+    id: 'tommy-hilfiger',
+    name: 'Tommy Hilfiger',
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/th.png?raw=true'
+  },
+  {
+    id: 'boss',
+    name: 'Boss',
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/boss.png?raw=true'
   },
   {
     id: 'calvin-klein',
@@ -43,5 +43,20 @@ export const brands = [
     id: 'dolce-gabbana',
     name: 'Dolce & Gabbana',
     logo: 'https://github.com/Bharatdev1/sarthis/blob/main/dg.jpg?raw=true'
+  },
+  {
+    id: 'persol',
+    name: 'Persol',
+    logo: 'https://media.persol.com/DropDownMenu/PO_header_persol_logo.svg'
+  },
+  {
+    id: 'emporio-armani',
+    name: 'Emporio Armani',
+    logo: 'https://cdn.worldvectorlogo.com/logos/emporio-armani.svg'
+  },
+  {
+    id: 'Philipp-Plein',
+    name: 'Philipp Plein',
+    logo: 'https://www.plein.com/on/demandware.static/-/Library-Sites-philipp-plein-shared-library/default/dw7d9dbc8b/images/SD-9/logo_PP.png'
   }
 ];
