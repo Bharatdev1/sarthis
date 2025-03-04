@@ -1,14 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Glasses as Sunglasses } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
+import { Glasses } from 'lucide-react';
 
 const Navbar = () => {
+  const location = useLocation();
+  
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
-          <Sunglasses className="me-2" />
-          Sarthi's
+          <Glasses className="me-2" />
+          <span className="fw-bold">Sarthi's</span>
         </Link>
         <button
           className="navbar-toggler"
@@ -21,10 +23,20 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <Link 
+                className={`nav-link ${location.pathname === '/' ? 'active' : ''}`} 
+                to="/"
+              >
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
+              <Link 
+                className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`} 
+                to="/contact"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
