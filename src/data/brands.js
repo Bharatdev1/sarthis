@@ -47,7 +47,7 @@ export const brands = [
   {
     id: 'persol',
     name: 'Persol',
-    logo: 'https://media.persol.com/DropDownMenu/PO_header_persol_logo.svg'
+    logo: 'https://github.com/Bharatdev1/sarthis/blob/main/images/Persol.JPG?raw=true'
   },
   {
     id: 'emporio-armani',
