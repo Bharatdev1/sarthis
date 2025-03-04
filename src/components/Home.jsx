@@ -51,7 +51,7 @@ const Home = () => {
                       className="img-fluid mb-3"
                     />
                   </div>
-                  <h5 className="card-title mt-2">{brand.name}</h5>
+                  <h5 className="card-title mt-2 text-center">{brand.name}</h5>
                 </div>
               </div>
             ))}
